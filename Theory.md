@@ -11,7 +11,10 @@ aristas, minimizando la suma total de los pesos de las aristas seleccionadas.
 
 interconectar un conjunto de nodos al menor costo global posible sin generar redundancias (ciclos).
 
-# ** Estructura de Datos de Soporte: Union-Find (UFDS)**
+## Summary: 
+* **MST es acíclico, conexo grafo no dirigido, ponderado** 
+
+# **Estructura de Datos de Soporte: Union-Find (UFDS)**
 
 Implementar de manera eficiente algoritmos de expansión como Kruskal, es indispensable contar con una
 estructura de datos que gestione componentes conexos en tiempo casi constante. La estructura Union-Find
@@ -28,6 +31,11 @@ inmediato si dos vértices ya están conectados.
 • Optimizaciones (Weighted Union + Path Compression): Reducen la altura de las estructuras arbóreas,
 logrando que las operaciones se ejecuten en tiempo amortizado casi constante O(α(N)), donde α es la función
 inversa de Ackermann.
+
+## Summary: 
+* Conjunto disconjunto: elementos donde ningun elemento aparece en mas de un conjunto. Esto forma una Particion, cada elemento pertenece a su grupo y los grupos no se solapan
+* Find(x) — Devuelve el representante del conjunto al que pertenece x. Ese representante identifica todo el grupo.
+* Union(x, y) — Une los conjuntos que contienen a x y y, formando uno solo.
 
 # **Algoritmos de Expansión Mínima: Kruskal y Prim**
 
