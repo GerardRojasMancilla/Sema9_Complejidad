@@ -52,6 +52,9 @@ Prim es un algoritmo voraz que construye el MST haciendo crecer un único árbol
 arbitrario. En cada paso, evalúa todas las aristas que conectan los vértices ya incluidos en el árbol con los
 vértices no visitados, y selecciona la arista de menor peso utilizando una Cola de Prioridad (Min-Heap).
 
+## Summary:
+* Algoritmo voraz: Solución paso a paso, se elige la mejor opción en cada iteración 
+
 # **Cuadro Comparativo: Dijkstra vs. Kruskal vs. Prim**
 A diferencia de Kruskal y Prim, que buscan conectar todos los nodos al menor costo total (MST), el Algoritmo
 de Dijkstra resuelve el problema del Camino Más Corto desde un Origen (Single-Source Shortest Path), mide
